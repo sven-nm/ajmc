@@ -25,9 +25,6 @@ be found in `docs/other_pages`
 
 Please install `ajmc` using `git clone https://github.com/AjaxMultiCommentary/ajmc`. `setup.py` lists all the required dependencies. For collaborative development, please use a dedicated virtual environment (for instance with [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)). 
 
-
-
-
 ## Install with PIP
 
 ```shell
@@ -50,3 +47,7 @@ You can also test a single file (or a single test --- see the [pytest docs](http
 ```bash
 $ python -m pytest "ajmc/search/index.py"
 ```
+
+# Acknowledgements
+
+Code in this repository was produced in the context of the Ajax Multi-Commentary project, funded by the Swiss National Science Foundation under an Ambizione grant [PZ00P1\_186033](http://p3.snf.ch/project-186033).
